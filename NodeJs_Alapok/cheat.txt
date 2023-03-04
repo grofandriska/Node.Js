@@ -1,0 +1,38 @@
+**run code utility
+f1
+mkdir
+add gitignore(extebsion)
+
+**terminal
+cntrl-ö
+
+**Node**
+
+'node'
+
+node .editor
+node .save
+
+node .load example.js
+
+
+-----------------------
+
+**create package.json
+'npm init --yes'
+'npm init '
+
+'npx eslint --init'
+
+**install dep via json 
+'npm i '
+'npm  install '
+
+------------------------
+'In package.json add the following line :' "scripts": {"start": "node index.js",}
+
+then 'node start'
+
+** create app.js 
+
+'node app.js'
