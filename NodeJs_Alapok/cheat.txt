@@ -36,3 +36,7 @@ then 'node start'
 ** create app.js 
 
 'node app.js'
+
+node *y.js
+
+npm i @types/node -D

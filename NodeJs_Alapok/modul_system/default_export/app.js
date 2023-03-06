@@ -1,5 +1,8 @@
-const even = require('./utils')
+const even = arr => arr.filter(item => item % 2 === 0)
+console.log('*****************Before*export*override****************************')
+console.log(module)
 
-const numberList = [345,88,978,21,5,0,-3,-4,7,9,11,12]
+module.exports = even
 
-console.log(even(numberList))
+console.log('*****************After*export*override****************************')
+console.log(module)

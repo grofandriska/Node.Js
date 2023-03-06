@@ -1,5 +1,6 @@
-const even = arr => arr.filter(item => item % 2 === 0)
 
-module.exports = even
+const even = require('./utils')
 
-console.log(module)
+const numberList = [345,88,978,21,5,0,-3,-4,7,9,11,12]
+
+console.log(even(numberList))
